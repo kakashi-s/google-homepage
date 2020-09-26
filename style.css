@@ -1,0 +1,118 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin-left: 0;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#navbar li {
+    font-size: small;
+    display: inline-block;
+    line-height: 15px;
+    width: fit-content;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#logo {
+    display: flex;
+    flex: auto;
+    height: 200;
+    width: 500;
+    max-height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: auto;
+    border: hidden;
+    border-radius: 25px;
+}
+
+#searchbar {
+    display: flex;
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+    max-width: 500px;
+    height: 44px;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    border-radius: 20px;
+}
+
+#button-area {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#google-search, #feeling-lucky {
+    display: inline-block;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+#bottom-nav ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(223, 223, 223);
+}
+
+#bottom-nav li {
+    font-size: smaller;
+    display: inline-block;
+    line-height: 25px;
+    width: fit-content;
+    padding: 8px;
+}
+
+.btnsignin {
+    display: inline-block;
+    width: 5em;
+    text-decoration: none;
+    text-align: center; 
+    background: #014dcf;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+.btnsignin:hover {
+    background: rgb(0, 0, 99);
+}
+
+#app {
+    height: 20px;
+    width: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
